@@ -12,20 +12,22 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ###Task at hand The script will perform following steps on the downloaded data
 
-Merges the training and the test sets to create one data set
-Extracts only the measurements on the mean and standard deviation for each measurement
-Uses descriptive activity names to name the activities in the data set
-Appropriately labels the data set with descriptive variable names.
-From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+1 Merges the training and the test sets to create one data set
+2 Extracts only the measurements on the mean and standard deviation for each measurement
+3 Uses descriptive activity names to name the activities in the data set
+4 Appropriately labels the data set with descriptive variable names.
+5 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
 Steps to recreate this on your system
 
-Download the data file mentioned above and unzip it in your working directory. Unzip should create a folder "UCI HAR Dataset"
+1 Download the data file mentioned above and unzip it in your working directory. Unzip should create a folder "UCI HAR Dataset"
 
-Download run_analysis.R from the repository in your working directory, this file is located at the same level as this README.md
+2 Download run_analysis.R from the repository in your working directory, this file is located at the same level as this README.md
 
-Read the CookBook.md or the comments in the script regarding details of the functioning of the script. The details of the data can be found under "UCI HAR Dataset\README.txt"
+3 Read the CookBook.md or the comments in the script regarding details of the functioning of the script. The details of the data can be found under "UCI HAR Dataset\README.txt"
 
-Run the following in your R
+4 Run the following in your R
 
  `source("run_analysis.R")`
-This should end up generating "Course3_Project_tidy.txt" file in your working directory. This file is the result of final step of creating a tidy data set with the average of each variable for each activity and each subject
+
+5 This should end up generating "Course3_Project_tidy.txt" file in your working directory. This file is the result of final step of creating a tidy data set with the average of each variable for each activity and each subject
